@@ -36,8 +36,8 @@
     Version 0.8 by uchu suzume & Marot Satil
     * Sorted blending modes in a more logical fashion, grouping by type.
 
-    Version 0.x by uchu suzume
-    *Replaced textures for pso2 exclusive and added a lot.
+    Version 0.9 by uchu suzume
+    *Replaced textures for PSO2:NGS exclusive and added a lot.
     *Fixed blend option applying correctly to alpha pixels by changing the order of code blocks.
     *Add space of UI and collapsed some parameters for visibility.
     *Changed the order of parameter in snap rotate.
