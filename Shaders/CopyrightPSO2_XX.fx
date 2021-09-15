@@ -240,7 +240,7 @@ uniform float cLayer_PosY <
     ui_type = "slider";
     ui_min = 0.0; ui_max = 1.0;
     ui_step = 0.001;
-> = 0.970;
+> = 0.975;
 
 
 uniform int cLayer_SnapRotate <
