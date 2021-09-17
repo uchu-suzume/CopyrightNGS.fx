@@ -47,6 +47,9 @@
          *Merge and blend background pixels into logo texture(Not sure I said it correctly in English).
          *Added layer with Gaussian blur can be used for drop shadows or bloom.
          *Added chromatic aberration layer with gaussian blur.
+    
+    Version 0.9x by uchu suzume
+    * Experimentaly increased gaussian layer capability for more thickness.
 */
 
 #include "ReShade.fxh"
@@ -222,7 +225,7 @@ uniform float cLayer_Scale <
 
 uniform bool  cLayer_Mouse <
     ui_label = "Mouse Following Mode";
-    ui_tooltip = "Press right click to logo texture follow the mouse cursor. Right click again to back to Position X and Y coord.";
+    ui_tooltip = "Press right click to logo texture follow the mouse cursor.   \nRight click again to back to Position X and Y coord.";
     ui_spacing = 2;
 > = false;
 
@@ -240,7 +243,7 @@ uniform float cLayer_PosY <
     ui_type = "slider";
     ui_min = 0.0; ui_max = 1.0;
     ui_step = 0.001;
-> = 0.975;
+> = 0.970;
 
 
 uniform int cLayer_SnapRotate <
@@ -348,18 +351,18 @@ uniform float Gauss_Blend <
     ui_category_closed = true;
     ui_type = "slider";
     ui_min = 0.0;
-    ui_max = 1.0;
+    ui_max = 3.0;
     ui_step = 0.001;
 > = 0.0;
 
 uniform int GaussianBlurRadius <
     ui_label = "Gaussian Blur Radius";
-    ui_tooltip = "[0|1|2] Adjusts the blur radius.\nHigher the values make thin and wide blur. \nLower values will more precise blur.\nAssumed to use for better results accord to   \ndifferent sizes of logos.";
+    ui_tooltip = "[0|1|2|3] Adjusts the blur radius.\nEach values Assumed to use for better results accord to   \ndifferent sizes of logos.   \nValue 3 is intended as a challenge.";
     ui_category = "Gaussian Layer";
     ui_type = "slider";
     ui_spacing = 2;
     ui_min = 0;
-    ui_max = 2;
+    ui_max = 3;
     ui_step = 1;
 > = 1;
 
@@ -739,17 +742,17 @@ uniform bool RightMouseDown < source = "mousebutton"; keycode = 1; toggle = true
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_Eurostyle(Square721)_center_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1100.0, 220.0
 
-#elif CopyrightTexturePSO2_Source == 36 // Futura Center
+#elif CopyrightTexturePSO2_Source == 36 // Frutiger XCN
+#define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_frutiger_xcn_rectangle_a.png"
+#define _SOURCE_COPYRIGHT_PSO2_SIZE 600, 250.0
+
+#elif CopyrightTexturePSO2_Source == 37 // Futura Center
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_futura_center_large.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 800.0, 190.0
 
-#elif CopyrightTexturePSO2_Source == 37 // Futura Center NGS
+#elif CopyrightTexturePSO2_Source == 38 // Futura Center NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_futura_center_large_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 800.0, 190.0
-
-#elif CopyrightTexturePSO2_Source == 38 // Frutiger XCN
-#define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_frutiger_xcn_rectangle_a.png"
-#define _SOURCE_COPYRIGHT_PSO2_SIZE 600, 250.0
 
 #elif CopyrightTexturePSO2_Source == 39 // Neuzeit Grotesk
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_neuzeit_grotesk.png"
@@ -1238,18 +1241,18 @@ float4 PS_cLayer_Gauss_H(in float4 pos : SV_Position, in float2 texCoord : TEXCO
                  color *= sampleWeights[0];
                  for(int i = 1; i < 4; ++i)
                  {
-                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord + float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH+ 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
-                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord - float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH+ 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
+                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord + float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH + 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
+                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord - float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH + 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
                  }
                  break;
-            case 1:
+             case 1:
                  const float sampleOffsets[6] = { 0.0, 1.4584295168, 3.40398480678, 5.3518057801, 7.302940716, 9.2581597095 };
                  const float sampleWeights[6] = { 0.13298, 0.23227575, 0.1353261595, 0.0511557427, 0.01253922, 0.0019913644 };
                  color *= sampleWeights[0];
                  for(int i = 1; i < 6; ++i)
                  {
-                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord + float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH+ 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
-                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord - float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH+ 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
+                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord + float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH + 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
+                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord - float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH + 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
                  }
                  break;
              case 2:
@@ -1258,8 +1261,18 @@ float4 PS_cLayer_Gauss_H(in float4 pos : SV_Position, in float2 texCoord : TEXCO
                  color *= sampleWeights[0];
                  for(int i = 1; i < 11; ++i)
                  {
-                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord + float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH+ 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
-                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord - float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH+ 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
+                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord + float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH + 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
+                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord - float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH + 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
+                 }
+                 break;
+             case 3:
+                 const float sampleOffsets[6] = { 0.0, 0.75, 1.5, 2.5, 3.0, 4.5 };
+                 const float sampleWeights[6] = { 0.15, 0.25, 0.135, 0.055, 0.0135, 0.002 };
+                 color *= sampleWeights[0];
+                 for(int i = 1; i < 6; ++i)
+                 {
+                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord + float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH + 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
+                 color += tex2Dlod(Copyright_Sampler_Gauss_V, float4(texCoord - float2(sampleOffsets[i] * (GaussWeight * (GaussWeightH + 0.5)) * PIXEL_SIZE.x, 0.0), 0.0, 0.0)) * sampleWeights[i];
                  }
                  break;
         }
@@ -1283,7 +1296,7 @@ float4 PS_cLayer_Gauss_V(in float4 pos : SV_Position, in float2 texCoord : TEXCO
                  color += tex2Dlod(Copyright_Sampler_Gauss_H, float4(texCoord - float2(0.0, sampleOffsets[i] * (GaussWeight * (GaussWeightV + 0.5)) * PIXEL_SIZE.y), 0.0, 0.0)) * sampleWeights[i];
                  }
                  break;
-            case 1:
+             case 1:
                  const float sampleOffsets[6] = { 0.0, 1.4584295168, 3.40398480678, 5.3518057801, 7.302940716, 9.2581597095 };
                  const float sampleWeights[6] = { 0.13298, 0.23227575, 0.1353261595, 0.0511557427, 0.01253922, 0.0019913644 };
                  color *= sampleWeights[0];
@@ -1298,6 +1311,16 @@ float4 PS_cLayer_Gauss_V(in float4 pos : SV_Position, in float2 texCoord : TEXCO
                  const float sampleWeights[11] = { 0.06649, 0.1284697563, 0.111918249, 0.0873132676, 0.0610011113, 0.0381655709, 0.0213835661, 0.0107290241, 0.0048206869, 0.0019396469, 0.0006988718 };
                  color *= sampleWeights[0];
                  for(int i = 1; i < 11; ++i)
+                 {
+                 color += tex2Dlod(Copyright_Sampler_Gauss_H, float4(texCoord + float2(0.0, sampleOffsets[i] * (GaussWeight * (GaussWeightV + 0.5)) * PIXEL_SIZE.y), 0.0, 0.0)) * sampleWeights[i];
+                 color += tex2Dlod(Copyright_Sampler_Gauss_H, float4(texCoord - float2(0.0, sampleOffsets[i] * (GaussWeight * (GaussWeightV + 0.5)) * PIXEL_SIZE.y), 0.0, 0.0)) * sampleWeights[i];
+                 }
+                 break;
+             case 3:
+                 const float sampleOffsets[6] = { 0.0, 0.75, 1.5, 2.5, 3.0, 4.5 };
+                 const float sampleWeights[6] = { 0.15, 0.25, 0.135, 0.055, 0.0135, 0.002 };
+                 color *= sampleWeights[0];
+                 for(int i = 1; i < 6; ++i)
                  {
                  color += tex2Dlod(Copyright_Sampler_Gauss_H, float4(texCoord + float2(0.0, sampleOffsets[i] * (GaussWeight * (GaussWeightV + 0.5)) * PIXEL_SIZE.y), 0.0, 0.0)) * sampleWeights[i];
                  color += tex2Dlod(Copyright_Sampler_Gauss_H, float4(texCoord - float2(0.0, sampleOffsets[i] * (GaussWeight * (GaussWeightV + 0.5)) * PIXEL_SIZE.y), 0.0, 0.0)) * sampleWeights[i];
