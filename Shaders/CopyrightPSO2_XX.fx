@@ -124,6 +124,7 @@ uniform int cLayer_Select <
                "Poster Bodoni NGS\0"
                "Krona One\0"
                "Krona One NGS\0"
+               "Empire\0"
                "Mouse Memories\0"
                "Swanky and Moo Moo\0"
                "Architects Daughter NGS\0"
@@ -794,259 +795,263 @@ uniform bool RightMouseDown < source = "mousebutton"; keycode = 1; toggle = true
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_krona_one_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 900.0, 340.0
 
-#elif CopyrightTexturePSO2_Source == 49 // Mouse Memories
+#elif CopyrightTexturePSO2_Source == 49 // Empire
+#define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_empire.png"
+#define _SOURCE_COPYRIGHT_PSO2_SIZE 800.0, 500.0
+
+#elif CopyrightTexturePSO2_Source == 50 // Mouse Memories
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_mouse_memories.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 660.0, 240.0
 
-#elif CopyrightTexturePSO2_Source == 50 // Swanky and Moo Moo
+#elif CopyrightTexturePSO2_Source == 51 // Swanky and Moo Moo
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_swanky_and_moo_moo.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 150.0
 
-#elif CopyrightTexturePSO2_Source == 51 // Architects Daughter NGS
+#elif CopyrightTexturePSO2_Source == 52 // Architects Daughter NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_architects_daughter_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 850.0, 250.0
 
-#elif CopyrightTexturePSO2_Source == 52 // Staccato555 A
+#elif CopyrightTexturePSO2_Source == 53 // Staccato555 A
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_staccato555_a.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 820.0, 350.0
 
-#elif CopyrightTexturePSO2_Source == 53 // Staccato555 B
+#elif CopyrightTexturePSO2_Source == 54 // Staccato555 B
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_staccato555_b.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 870.0, 320.0
 
-#elif CopyrightTexturePSO2_Source == 54 // Tango NGS
+#elif CopyrightTexturePSO2_Source == 55 // Tango NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_tango_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 500.0, 200.0
 
-#elif CopyrightTexturePSO2_Source == 55 // Lato Cutout
+#elif CopyrightTexturePSO2_Source == 56 // Lato Cutout
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_lato_cutout.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 180.0
 
-#elif CopyrightTexturePSO2_Source == 56 // Lato Cutout NGS
+#elif CopyrightTexturePSO2_Source == 57 // Lato Cutout NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_lato_cutout_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 620.0, 200.0
 
-#elif CopyrightTexturePSO2_Source == 57 // -------------------------------------------border line---------------------------------------------
+#elif CopyrightTexturePSO2_Source == 58 // -------------------------------------------border line---------------------------------------------
 #define _SOURCE_COPYRIGHT_PSO2_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1550.0, 60.0
 
-#elif CopyrightTexturePSO2_Source == 58 // Six Caps Rectangle
+#elif CopyrightTexturePSO2_Source == 59 // Six Caps Rectangle
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_six_caps_rectangle.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 400.0, 260.0
 
-#elif CopyrightTexturePSO2_Source == 59 // Rockwell Nova
+#elif CopyrightTexturePSO2_Source == 60 // Rockwell Nova
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_Rockwell_nova_large.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 400.0, 130.0
 
-#elif CopyrightTexturePSO2_Source == 60 // Kabel Heavy
+#elif CopyrightTexturePSO2_Source == 61 // Kabel Heavy
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_kabel(Geometric231)_heavy.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 240.0
 
-#elif CopyrightTexturePSO2_Source == 61 // Poiret One
+#elif CopyrightTexturePSO2_Source == 62 // Poiret One
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_Poiret_one.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 210.0
 
-#elif CopyrightTexturePSO2_Source == 62 // Poiret One Huge
+#elif CopyrightTexturePSO2_Source == 63 // Poiret One Huge
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_Poiret_one_huge.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1440.0, 500.0
 
-#elif CopyrightTexturePSO2_Source == 63 // Supermercado
+#elif CopyrightTexturePSO2_Source == 64 // Supermercado
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_supermercado.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 430.0, 200.0
 
-#elif CopyrightTexturePSO2_Source == 64 // Bauer Bodni
+#elif CopyrightTexturePSO2_Source == 65 // Bauer Bodni
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_bauer_bodoni.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 650.0, 250.0
 
-#elif CopyrightTexturePSO2_Source == 65 // Baumans
+#elif CopyrightTexturePSO2_Source == 66 // Baumans
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_baumans.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 480.0
 
-#elif CopyrightTexturePSO2_Source == 66 // Bilbo Swash Caps
+#elif CopyrightTexturePSO2_Source == 67 // Bilbo Swash Caps
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_bilbo_swash_caps.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 200.0
 
-#elif CopyrightTexturePSO2_Source == 67 // Kranky Large
+#elif CopyrightTexturePSO2_Source == 68 // Kranky Large
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_Kranky_large.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 830.0, 340.0
 
-#elif CopyrightTexturePSO2_Source == 68 // Monoton NGS
+#elif CopyrightTexturePSO2_Source == 69 // Monoton NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_monoton_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 370.0
 
-#elif CopyrightTexturePSO2_Source == 69 // Meddon NGS
+#elif CopyrightTexturePSO2_Source == 70 // Meddon NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_meddon_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 800.0, 200.0
 
-#elif CopyrightTexturePSO2_Source == 70 // -------------------------------------------border line---------------------------------------------
+#elif CopyrightTexturePSO2_Source == 71 // -------------------------------------------border line---------------------------------------------
 #define _SOURCE_COPYRIGHT_PSO2_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1550.0, 60.0
 
-#elif CopyrightTexturePSO2_Source == 71 // Futura Tri
+#elif CopyrightTexturePSO2_Source == 72 // Futura Tri
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_futura_tri.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 329.0, 432.0
 
-#elif CopyrightTexturePSO2_Source == 72 // Futura Tri NGS
+#elif CopyrightTexturePSO2_Source == 73 // Futura Tri NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_futura_tri_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 330.0, 430.0
 
-#elif CopyrightTexturePSO2_Source == 73 // Futura Tri NGS HV
+#elif CopyrightTexturePSO2_Source == 74 // Futura Tri NGS HV
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_futura_tri_ngs_hv.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 330.0, 460.0
 
-#elif CopyrightTexturePSO2_Source == 74 // Helvetica Square
+#elif CopyrightTexturePSO2_Source == 75 // Helvetica Square
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_Helvetica(Swis721)_square.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 360.0, 400.0
 
-#elif CopyrightTexturePSO2_Source == 75 // Peignot NGS 2
+#elif CopyrightTexturePSO2_Source == 76 // Peignot NGS 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_peignot_ngs_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 500.0, 700.0
 
-#elif CopyrightTexturePSO2_Source == 76 // Futura NGS
+#elif CopyrightTexturePSO2_Source == 77 // Futura NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_futura_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 800.0, 480.0
 
-#elif CopyrightTexturePSO2_Source == 77 // Peignot NGS
+#elif CopyrightTexturePSO2_Source == 78 // Peignot NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_peignot_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 700.0, 500.0
 
-#elif CopyrightTexturePSO2_Source == 78 // Rockwell Nova NGS
+#elif CopyrightTexturePSO2_Source == 79 // Rockwell Nova NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_rockwell_nova_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 750.0, 550.0
 
-#elif CopyrightTexturePSO2_Source == 79 // Righteous
+#elif CopyrightTexturePSO2_Source == 80 // Righteous
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_righteous.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 550.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 80 // Bubbler One Rectangle
+#elif CopyrightTexturePSO2_Source == 81 // Bubbler One Rectangle
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_bubbler_one_rectangle.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 450
 
-#elif CopyrightTexturePSO2_Source == 81 // Poppins
+#elif CopyrightTexturePSO2_Source == 82 // Poppins
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_poppins.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 200.0
 
-#elif CopyrightTexturePSO2_Source == 82 // Bank Gothic
+#elif CopyrightTexturePSO2_Source == 83 // Bank Gothic
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_bankgothic.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 650.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 83 // PSO2 Flat Logo
+#elif CopyrightTexturePSO2_Source == 84 // PSO2 Flat Logo
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_flat_logo.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 700.0, 400.0
 
-#elif CopyrightTexturePSO2_Source == 84 // CollageAL NGS
+#elif CopyrightTexturePSO2_Source == 85 // CollageAL NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_collage_al_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 360.0, 250.0
 
-#elif CopyrightTexturePSO2_Source == 85 // Lucida Console
+#elif CopyrightTexturePSO2_Source == 86 // Lucida Console
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_lucida_console.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1100.0, 350.0
 
-#elif CopyrightTexturePSO2_Source == 86 // Wire One
+#elif CopyrightTexturePSO2_Source == 87 // Wire One
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_wire_one.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1000.0, 500.0
 
-#elif CopyrightTexturePSO2_Source == 87 // Wire One NGS
+#elif CopyrightTexturePSO2_Source == 88 // Wire One NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_wire_one_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1000.0, 500.0
 
-#elif CopyrightTexturePSO2_Source == 88 // Maximus NGS
+#elif CopyrightTexturePSO2_Source == 89 // Maximus NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_maximus_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1100.0, 500.0
 
-#elif CopyrightTexturePSO2_Source == 89 // Tango NGS 2
+#elif CopyrightTexturePSO2_Source == 90 // Tango NGS 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_tango_ngs_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 850.0, 340.0
 
-#elif CopyrightTexturePSO2_Source == 90 // Rock Salt Rectangle
+#elif CopyrightTexturePSO2_Source == 91 // Rock Salt Rectangle
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_rock_salt_rectangle.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 700.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 91 // Bernhard Fashion
+#elif CopyrightTexturePSO2_Source == 92 // Bernhard Fashion
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_bernhard_fashion.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 500.0, 400.0
 
-#elif CopyrightTexturePSO2_Source == 92 // Uzu Kaku NGS
+#elif CopyrightTexturePSO2_Source == 93 // Uzu Kaku NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_uzu_kaku_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 500.0, 400.0
 
-#elif CopyrightTexturePSO2_Source == 93 // Peignot Square
+#elif CopyrightTexturePSO2_Source == 94 // Peignot Square
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_peignot_square.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 750.0, 750.0
 
-#elif CopyrightTexturePSO2_Source == 94 // Yanone Kaffeesatz Square
+#elif CopyrightTexturePSO2_Source == 95 // Yanone Kaffeesatz Square
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_yanone_kaffeesatz_square.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 300.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 95 // Yanone Kaffeesatz Square 2
+#elif CopyrightTexturePSO2_Source == 96 // Yanone Kaffeesatz Square 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_yanone_kaffeesatz_square_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 300.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 96 // Frutiger Square NGS
+#elif CopyrightTexturePSO2_Source == 97 // Frutiger Square NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_frutiger_square_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 300.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 97 // Frutiger Square NGS 2
+#elif CopyrightTexturePSO2_Source == 98 // Frutiger Square NGS 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_frutiger_square_ngs_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 300.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 98 // Gill Sans Ultra Bold Square NGS
+#elif CopyrightTexturePSO2_Source == 99 // Gill Sans Ultra Bold Square NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_gill_sans_ultra_bold_square_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 300.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 99 // Gill Sans Ultra Bold Square NGS 2
+#elif CopyrightTexturePSO2_Source == 100 // Gill Sans Ultra Bold Square NGS 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_gill_sans_ultra_bold_square_ngs_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 300.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 100 // Megrim Square NGS
+#elif CopyrightTexturePSO2_Source == 101 // Megrim Square NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_megrim_square_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 300.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 101 // -------------------------------------------border line---------------------------------------------
+#elif CopyrightTexturePSO2_Source == 102 // -------------------------------------------border line---------------------------------------------
 #define _SOURCE_COPYRIGHT_PSO2_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1550.0, 60.0
 
-#elif CopyrightTexturePSO2_Source == 102 // Vapor Pixel
+#elif CopyrightTexturePSO2_Source == 103 // Vapor Pixel
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_vapor_pixel_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 850.0, 400.0
 
-#elif CopyrightTexturePSO2_Source == 103 // Mechanical Sans Serif
+#elif CopyrightTexturePSO2_Source == 104 // Mechanical Sans Serif
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_mechanicalsansserif.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 800.0, 150.0
 
-#elif CopyrightTexturePSO2_Source == 104 // Mechanical Sans Serif 2
+#elif CopyrightTexturePSO2_Source == 105 // Mechanical Sans Serif 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_mechanicalsansserif_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 950.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 105 // Toy Writer Marker NGS
+#elif CopyrightTexturePSO2_Source == 106 // Toy Writer Marker NGS
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_toywritermarker_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 850.0, 560.0
 
-#elif CopyrightTexturePSO2_Source == 106 // Toy Writer Marker NGS 2
+#elif CopyrightTexturePSO2_Source == 107 // Toy Writer Marker NGS 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_toywritermarker_ngs_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 850.0, 350.0
 
-#elif CopyrightTexturePSO2_Source == 107 // Toy Writer Marker NGS 3
+#elif CopyrightTexturePSO2_Source == 108 // Toy Writer Marker NGS 3
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_toywritermarker_ngs_3.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 1000.0, 750.0
 
-#elif CopyrightTexturePSO2_Source == 108 // Flamingo Serif
+#elif CopyrightTexturePSO2_Source == 109 // Flamingo Serif
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_flamingoserif_ngs.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 700.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 109 // Flamingo Serif 2
+#elif CopyrightTexturePSO2_Source == 110 // Flamingo Serif 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_flamingoserif_ngs_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 600.0
 
-#elif CopyrightTexturePSO2_Source == 110 // Ligaturerian
+#elif CopyrightTexturePSO2_Source == 111 // Ligaturerian
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_ligaturerian.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 650.0, 300.0
 
-#elif CopyrightTexturePSO2_Source == 111 // Ligaturerian 2
+#elif CopyrightTexturePSO2_Source == 112 // Ligaturerian 2
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_ligaturerian_2.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 650.0, 420.0
 
-#elif CopyrightTexturePSO2_Source == 112 // Ligaturerian 3
+#elif CopyrightTexturePSO2_Source == 113 // Ligaturerian 3
 #define _SOURCE_COPYRIGHT_PSO2_FILE "copyright_pso2_ligaturerian_3.png"
 #define _SOURCE_COPYRIGHT_PSO2_SIZE 600.0, 500.0
 
