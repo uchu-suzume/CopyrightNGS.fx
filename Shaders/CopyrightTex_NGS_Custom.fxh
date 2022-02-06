@@ -1,0 +1,114 @@
+/*------------------.
+| :: Description :: |
+'-------------------/
+
+    Texture Header (version 0.1)
+
+    Authors: originalnicodr, prod80, uchu suzume, Marot Satil
+
+    About:
+    Provides a variety of blending methods for you to use as you wish. Just include this header.
+
+    History:
+    (*) Feature (+) Improvement (x) Bugfix (-) Information (!) Compatibility
+    
+    Version 0.1 by Marot Satil & uchu suzume
+    + Divided into corresponding lists for each game.
+    * Added warning message when specified Non-existing source reference numbers.
+    x Fixed incorrect specification of PSO2 logo in ui_item and Texture Definition. 
+
+    Version 0.2 by Marot Satil & uchu suzume
+    + Added "else" in _Copyright_Texture_Source list to avoid errors when switching *Tex.fxh.    
+*/
+
+// -------------------------------------
+// Texture Macros
+// -------------------------------------
+
+#define TEXTURE_COMBO(variable, name_label, description) \
+uniform int variable \
+< \
+    ui_items = \
+               "Logo 00\0" /* Logo 00の部分を書き換えることでGShadeのUI上で表示される名前を任意のものに変更できます。 */ \
+               "Logo 01\0" /* スラッシュやダブルクォーター等は動作上必要なものなので書き換える際は注意してください。 */ \
+               "Logo 02\0" \
+               "Logo 03\0" \
+               "Logo 04\0" \
+               "Logo 05\0" \
+               "Logo 06\0" \
+               "Logo 07\0" \
+               "Logo 08\0" \
+               "Logo 09\0" \
+               "Logo 10\0" \
+               "-------------------------------------------------\0" /* よければロゴの種類が増えた時に仕切りとしてお使いください。 */ \
+               ; /*ここのセミコロン(;)はリストの終わりを表すものなので、間違って消すとエラーになります。*/ \ 
+    ui_bind = "_Copyright_TextureNGS_Source"; \
+    ui_label = name_label; \
+    ui_tooltip = description; \
+    ui_spacing = 1; \
+    ui_type = "combo"; \
+> = 0;
+/* Set default value(see above) by source code if the preset has not modified yet this variable/definition */
+#ifndef cLayer_TextureNGS_Source
+#define cLayer_TextureNGS_Source 0
+#warning "Non-existing source reference numbers specified. Try selecting the logo texture at the top and then reload."
+#endif
+
+// -------------------------------------
+// Texture Definition
+// -------------------------------------
+
+// (?<=Source == )[\d][\S+]{0,999} Regular expression for renumbering. 連番修正用の正規表現。VSCodeとその拡張機能用。
+
+#if _Copyright_TextureNGS_Source == 0 // Logo 00           面倒ですが、リストを入れ替えたりした時は番号の並びも直してください。
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png" // 表示するテクスチャのファイル名(.pngまで含めないとチェックに通らずエラーが出ます。
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0          // テクスチャの横解像度、縦解像度。数値が間違っていてもエラーメッセージは出ないので注意してください。
+
+#elif _Copyright_TextureNGS_Source == 1 // Logo 01
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 2 // Logo 02
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 3 // Logo 03
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 4 // Logo 04
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 5 // Logo 05
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 6 // Logo 06
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 7 // Logo 07
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 8 // Logo 08
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 9 // Logo 09
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 10 // Logo 10
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+
+#elif _Copyright_TextureNGS_Source == 11 // -------------------------------------------border line---------------------------------------------
+#define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
+
+#else // リストを変更した時、変更先のリストに対応したテクスチャ番号存在しない場合はエラーを回避するためここを参照します。
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+#endif
