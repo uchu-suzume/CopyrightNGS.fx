@@ -29,8 +29,8 @@
 uniform int variable \
 < \
     ui_items = \
-               "Logo 00\0" /* Logo 00の部分を書き換えることでGShadeのUI上で表示される名前を任意のものに変更できます。 */ \
-               "Logo 01\0" /* スラッシュやダブルクォーター等は動作上必要なものなので書き換える際は注意してください。 */ \
+               "Logo 00\0" \/* Name displayed in Dropdown. Logo 00の部分を書き換えることでGShadeのUI上で表示される名前を任意のものに変更できます。 */
+               "Logo 01\0" \/* Leave symbols / and ". スラッシュやダブルクォーテーション等は動作上必要なものなので書き換える際は注意してください。 */
                "Logo 02\0" \
                "Logo 03\0" \
                "Logo 04\0" \
@@ -40,8 +40,8 @@ uniform int variable \
                "Logo 08\0" \
                "Logo 09\0" \
                "Logo 10\0" \
-               "-------------------------------------------------\0" /* よければロゴの種類が増えた時に仕切りとしてお使いください。 */ \
-               ; /*ここのセミコロン(;)はリストの終わりを表すものなので、間違って消すとエラーになります。*/ \ 
+               "-------------------------------------------------\0" \/* Use this partition if you need. よければロゴの種類が増えた時に仕切りとしてお使いください。 */
+               ; \/* This semicolon marking an end of the list. Do not delete. ここのセミコロン(;)はリストの終わりを表すものなので、間違って消すとエラーになります。*/
     ui_bind = "_Copyright_TextureNGS_Source"; \
     ui_label = name_label; \
     ui_tooltip = description; \
@@ -58,11 +58,11 @@ uniform int variable \
 // Texture Definition
 // -------------------------------------
 
-// (?<=Source == )[\d][\S+]{0,999} Regular expression for renumbering. 連番修正用の正規表現。VSCodeとその拡張機能用。
+// (?<=Source == )[\d][\S+]{0,999} Regular expression for renumbering. 連番修正用の正規表現。VSCode等のエディタと連番入力機能用。
 
-#if _Copyright_TextureNGS_Source == 0 // Logo 00           面倒ですが、リストを入れ替えたりした時は番号の並びも直してください。
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png" // 表示するテクスチャのファイル名(.pngまで含めないとチェックに通らずエラーが出ます。
-#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0          // テクスチャの横解像度、縦解像度。数値が間違っていてもエラーメッセージは出ないので注意してください。
+#if _Copyright_TextureNGS_Source == 0 // Logo 00              Textures are matched by number here and in the drop-down lines. この番号とドロップダウンの行でテクスチャを照合しています。面倒ですがリストを入れ替えたりした時は番号の並びも直してください。
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png" // // Name for textures including extension. 表示するテクスチャのファイル名(.pngまで含めないとチェックに通らずエラーが出ます。
+#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0          // // Cannot be known by error if value is wrong. Make sure to type correctly. テクスチャの横解像度、縦解像度。数値が間違っていてもエラーメッセージは出ないので注意してください。
 
 #elif _Copyright_TextureNGS_Source == 1 // Logo 01
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
@@ -108,7 +108,7 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
 
-#else // リストを変更した時、変更先のリストに対応したテクスチャ番号存在しない場合はエラーを回避するためここを参照します。
+#else // To avoid errors when changing list and the list doesn't have a matching number. 別のリストを変更した時に変更先のリストに対応したテクスチャ番号存在しない場合、エラーを回避するためここを参照します。
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
 #endif
