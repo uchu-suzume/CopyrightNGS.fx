@@ -56,10 +56,10 @@ uniform int variable \
                "Brick Text Logo 4\0" \
                "Brick Text Logo 5\0" \
                "Brick Text Logo 6\0" \
-               "Brick Text Logo 7\0" \
+               "Brick Text Logo 7\0" \               
+               "Chocolate Note\0" \ 
                "Fifty Four 3\0" \
-               "Fifty Four NGS 2\0" \               
-               "Chocolate Note\0" \               
+               "Fifty Four NGS 2\0" \              
                ; \
     ui_bind = "_Copyright_TextureNGS_Source"; \
     ui_label = name_label; \
@@ -191,17 +191,17 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bricktextlogo_7.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 28 // Fifty Four 3
+#elif _Copyright_TextureNGS_Source == 28 // Chocolate Note
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_chocolatenote.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 650.0
+
+#elif _Copyright_TextureNGS_Source == 29 // Fifty Four 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_3.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 250.0
 
-#elif _Copyright_TextureNGS_Source == 29 // Fifty Four NGS 2
+#elif _Copyright_TextureNGS_Source == 30 // Fifty Four NGS 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_ngs_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
-
-#elif _Copyright_TextureNGS_Source == 30 // Chocolate Note
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_chocolatenote.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 650.0
 
 #else
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
