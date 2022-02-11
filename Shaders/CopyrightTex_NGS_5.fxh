@@ -42,7 +42,9 @@ uniform int variable \
                "Ligaturerian\0" \
                "Ligaturerian 2\0" \
                "Ligaturerian 3\0" \
+               "Ligaturerian 4\0" \
                "Atlantic Future\0" \
+               "Atlantic Future 2\0" \
                "Square Stencil\0" \
                "Tactical Digit\0" \
                "Tactical Digit 2\0" \
@@ -54,8 +56,10 @@ uniform int variable \
                "Brick Text Logo 4\0" \
                "Brick Text Logo 5\0" \
                "Brick Text Logo 6\0" \
+               "Brick Text Logo 7\0" \
                "Fifty Four 3\0" \
                "Fifty Four NGS 2\0" \               
+               "Chocolate Note\0" \               
                ; \
     ui_bind = "_Copyright_TextureNGS_Source"; \
     ui_label = name_label; \
@@ -127,61 +131,77 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_ligaturerian_3.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 13 // Atlantic Future
+#elif _Copyright_TextureNGS_Source == 13 // Ligaturerian 4
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_ligaturerian_4.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 450.0
+
+#elif _Copyright_TextureNGS_Source == 14 // Atlantic Future
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_atlanticfuture.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 14 // Square Stencil
+#elif _Copyright_TextureNGS_Source == 15 // Atlantic Future 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_atlanticfuture_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 16 // Square Stencil
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_squarestencil.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 600.0
 
-#elif _Copyright_TextureNGS_Source == 15 // Tactical Digit
+#elif _Copyright_TextureNGS_Source == 17 // Tactical Digit
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_tacticaldigit.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 200.0
 
-#elif _Copyright_TextureNGS_Source == 16 // Tactical Digit 2
+#elif _Copyright_TextureNGS_Source == 18 // Tactical Digit 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_tacticaldigit_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 150.0
 
-#elif _Copyright_TextureNGS_Source == 17 // Tactical Digit 3
+#elif _Copyright_TextureNGS_Source == 19 // Tactical Digit 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_tacticaldigit_3.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 800.0
 
-#elif _Copyright_TextureNGS_Source == 18 // Tactical Digit 4
+#elif _Copyright_TextureNGS_Source == 20 // Tactical Digit 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_tacticaldigit_4.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 550.0, 600.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
 
-#elif _Copyright_TextureNGS_Source == 19 // Brick Text Logo
+#elif _Copyright_TextureNGS_Source == 21 // Brick Text Logo
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bricktextlogo.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 950.0, 350.0
 
-#elif _Copyright_TextureNGS_Source == 20 // Brick Text Logo 2
+#elif _Copyright_TextureNGS_Source == 22 // Brick Text Logo 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bricktextlogo_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1100.0, 350.0
 
-#elif _Copyright_TextureNGS_Source == 21 // Brick Text Logo 3
+#elif _Copyright_TextureNGS_Source == 23 // Brick Text Logo 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bricktextlogo_3.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 600.0
 
-#elif _Copyright_TextureNGS_Source == 22 // Brick Text Logo 4
+#elif _Copyright_TextureNGS_Source == 24 // Brick Text Logo 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bricktextlogo_4.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 600.0
 
-#elif _Copyright_TextureNGS_Source == 23 // Brick Text Logo 5
+#elif _Copyright_TextureNGS_Source == 25 // Brick Text Logo 5
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bricktextlogo_5.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 450.0
 
-#elif _Copyright_TextureNGS_Source == 24 // Brick Text Logo 6
+#elif _Copyright_TextureNGS_Source == 26 // Brick Text Logo 6
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bricktextlogo_6.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 25 // Fifty Four 3
+#elif _Copyright_TextureNGS_Source == 27 // Brick Text Logo 7
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bricktextlogo_7.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 28 // Fifty Four 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_3.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 250.0
 
-#elif _Copyright_TextureNGS_Source == 26 // Fifty Four NGS 2
+#elif _Copyright_TextureNGS_Source == 29 // Fifty Four NGS 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_ngs_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
+
+#elif _Copyright_TextureNGS_Source == 30 // Chocolate Note
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_chocolatenote.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 650.0
 
 #else
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
