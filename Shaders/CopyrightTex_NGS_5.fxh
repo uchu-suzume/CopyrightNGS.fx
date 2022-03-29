@@ -57,9 +57,36 @@ uniform int variable \
                "Brick Text Logo 5\0" \
                "Brick Text Logo 6\0" \
                "Brick Text Logo 7\0" \               
-               "Chocolate Note\0" \ 
-               "Fifty Four 3\0" \
-               "Fifty Four NGS 2\0" \              
+               "Chocolate Note\0" \
+               "Pro Torca\0" \
+               "Pro Torca Outlined\0" \
+               "Geometry Addict\0" \
+               "Geometry Addict NGS\0" \
+               "Geometry Addict NGS 2\0" \
+               "Geometry Addict NGS 3\0" \
+               "Geometry Addict NGS Square\0" \
+               "Geometry Addict NGS Square 2\0" \
+               "Geometry Addict NGS Square 3\0" \
+               "Geometry Addict NGS Square 4\0" \
+               "Geometry Addict NGS Square 5\0" \
+               "Geometry Addict NGS Square 6\0" \
+               "Geometry Addict NGS Square 7\0" \
+               "-------------------------------------------------\0" \
+               "Super Bodoni DF\0" \
+               "Super Bodoni DF 2\0" \
+               "Super Bodoni DF NGS\0" \
+               "Super Bodoni DF 3\0" \
+               "Super Bodoni DF NGS 2\0" \
+               "Super Bodoni DF NGS 3\0" \
+               "Super Bodoni DF NGS 4\0" \
+               "Super Bodoni DF 4\0" \
+               "Super Bodoni DF 5\0" \
+               "Super Bodoni DF NGS 5\0" \
+               "Super Bodoni DF NGS 6\0" \
+               "Super Bodoni DF 6\0" \
+               "Super Bodoni DF NGS 7\0" \
+               "Super Bodoni DF NGS 8\0" \
+               "Super Bodoni DF NGS 9\0" \
                ; \
     ui_bind = "_Copyright_TextureNGS_Source"; \
     ui_label = name_label; \
@@ -195,15 +222,124 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_chocolatenote.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 650.0
 
-#elif _Copyright_TextureNGS_Source == 29 // Fifty Four 3
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 250.0
+#elif _Copyright_TextureNGS_Source == 29 // Pro Torca
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_protorca.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 30 // Fifty Four NGS 2
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_ngs_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
+#elif _Copyright_TextureNGS_Source == 30 // Pro Torca Outlined
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_protorca_outlined.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 31 // Geometry Addict
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 32 // Geometry Addict NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 650.0
+
+#elif _Copyright_TextureNGS_Source == 33 // Geometry Addict NGS 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 350.0
+
+#elif _Copyright_TextureNGS_Source == 34 // Geometry Addict NGS 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 35 // Geometry Addict NGS Square
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+
+#elif _Copyright_TextureNGS_Source == 36 // Geometry Addict NGS Square 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+
+#elif _Copyright_TextureNGS_Source == 37 // Geometry Addict NGS Square 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+
+#elif _Copyright_TextureNGS_Source == 38 // Geometry Addict NGS Square 4
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_4.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+
+#elif _Copyright_TextureNGS_Source == 39 // Geometry Addict NGS Square 5
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_5.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+
+#elif _Copyright_TextureNGS_Source == 40 // Geometry Addict NGS Square 6
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_6.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+
+#elif _Copyright_TextureNGS_Source == 41 // Geometry Addict NGS Square 7
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_7.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+
+#elif _Copyright_TextureNGS_Source == 42 // -------------------------------------------border line---------------------------------------------
+#define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
+
+#elif _Copyright_TextureNGS_Source == 43 // Super Bodoni DF
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1150.0, 200.0
+
+#elif _Copyright_TextureNGS_Source == 44 // Super Bodoni DF 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 45 // Super Bodoni DF NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 46 // Super Bodoni DF 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 47 // Super Bodoni DF NGS 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 48 // Super Bodoni DF NGS 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 49 // Super Bodoni DF NGS 4
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_4.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 50 // Super Bodoni DF 4
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_4.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 51 // Super Bodoni DF 5
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_5.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 52 // Super Bodoni DF NGS 5
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_5.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 53 // Super Bodoni DF NGS 6
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_6.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 54 // Super Bodoni DF 6
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_6.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 800.0
+
+#elif _Copyright_TextureNGS_Source == 55 // Super Bodoni DF NGS 7
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_7.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 850.0
+
+#elif _Copyright_TextureNGS_Source == 56 // Super Bodoni DF NGS 8
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_8.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 700.0
+
+#elif _Copyright_TextureNGS_Source == 57 // Super Bodoni DF NGS 9
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_9.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 800.0
+
 
 #else
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 400.0
 #endif

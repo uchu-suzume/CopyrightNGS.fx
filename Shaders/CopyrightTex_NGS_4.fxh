@@ -49,7 +49,7 @@ uniform int variable \
                "Sophia DF NGS 6\0" \
                "Kilogram\0" \
                "Kilogram 2\0" \
-               "Righteous\0" \
+               "Fifty Four DF NGS 2\0" \
                "Parisian NGS 4\0" \
                "Parisian NGS 5\0" \
                "Bernhard Fashion NGS 2\0" \
@@ -61,9 +61,9 @@ uniform int variable \
                "PSO2 Flat Logo\0" \
                "CollageAL NGS\0" \
                "-------------------------------------------------\0" \
+               "Righteous\0" \
                "Tango NGS 2\0" \
                "Rock Salt Rectangle\0" \
-               "Bubbler One Rectangle\0" \
                "Bernhard Fashion\0" \
                "Uzu Kaku\0" \
                "Erica One NGS A\0" \
@@ -72,6 +72,7 @@ uniform int variable \
                "Sophia DF 12\0" \
                "Sophia DF 13\0" \
                "Peignot Square\0" \
+               "Fifty Four DF 3\0" \
                "Sophia DF 10\0" \
                "Sophia DF 9\0" \
                "Sophia DF 7\0" \
@@ -79,6 +80,9 @@ uniform int variable \
                "Wire One\0" \
                "Wire One NGS\0" \
                "Maximus NGS\0" \
+               "Sophia DF 14\0" \
+               "Sophia DF 15\0" \
+               "-------------------------------------------------\0" \
                "Yanone Kaffeesatz Square\0" \
                "Yanone Kaffeesatz Square 2\0" \
                "Frutiger Square NGS\0" \
@@ -187,9 +191,9 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_kilogram_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 20 // Righteous
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_righteous.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 550.0, 300.0
+#elif _Copyright_TextureNGS_Source == 20 // Fifty Four DF NGS 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_df_ngs_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 21 // Parisian NGS 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_parisian_ngs_4.png"
@@ -235,17 +239,17 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
 
-#elif _Copyright_TextureNGS_Source == 32 // Tango NGS 2
+#elif _Copyright_TextureNGS_Source == 32 // Righteous
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_righteous.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 550.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 33 // Tango NGS 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_tango_ngs_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 350.0
 
-#elif _Copyright_TextureNGS_Source == 33 // Rock Salt Rectangle
+#elif _Copyright_TextureNGS_Source == 34 // Rock Salt Rectangle
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_rock_salt_rectangle.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 300.0
-
-#elif _Copyright_TextureNGS_Source == 34 // Bubbler One Rectangle
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bubbler_one_rectangle.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 450
 
 #elif _Copyright_TextureNGS_Source == 35 // Bernhard Fashion
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bernhard_fashion.png"
@@ -279,67 +283,83 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_peignot_square.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 750.0
 
-#elif _Copyright_TextureNGS_Source == 43 // Sophia DF 10
+#elif _Copyright_TextureNGS_Source == 43 // Fifty Four DF 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_df_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 250.0
+
+#elif _Copyright_TextureNGS_Source == 44 // Sophia DF 10
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_10.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 44 // Sophia DF 9
+#elif _Copyright_TextureNGS_Source == 45 // Sophia DF 9
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_9.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 45 // Sophia DF NGS 7
+#elif _Copyright_TextureNGS_Source == 46 // Sophia DF NGS 7
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_7.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1200.0, 550.0
 
-#elif _Copyright_TextureNGS_Source == 46 // Lucida Console
+#elif _Copyright_TextureNGS_Source == 47 // Lucida Console
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_lucida_console.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1100.0, 350.0
 
-#elif _Copyright_TextureNGS_Source == 47 // Wire One
+#elif _Copyright_TextureNGS_Source == 48 // Wire One
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_wire_one.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 48 // Wire One NGS
+#elif _Copyright_TextureNGS_Source == 49 // Wire One NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_wire_one_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 49 // Maximus NGS
+#elif _Copyright_TextureNGS_Source == 50 // Maximus NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_maximus_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1100.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 50 // Yanone Kaffeesatz Square
+#elif _Copyright_TextureNGS_Source == 51 // Sophia DF NGS 14
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_14.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 700.0
+
+#elif _Copyright_TextureNGS_Source == 52 // Sophia DF NGS 15
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_15.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 700.0
+
+#elif _Copyright_TextureNGS_Source == 53 // -------------------------------------------border line---------------------------------------------
+#define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
+
+#elif _Copyright_TextureNGS_Source == 54 // Yanone Kaffeesatz Square
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_yanone_kaffeesatz_square.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 300.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 51 // Yanone Kaffeesatz Square 2
+#elif _Copyright_TextureNGS_Source == 55 // Yanone Kaffeesatz Square 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_yanone_kaffeesatz_square_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 300.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 52 // Frutiger Square NGS
+#elif _Copyright_TextureNGS_Source == 56 // Frutiger Square NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_frutiger_square_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 53 // Frutiger Square NGS 2
+#elif _Copyright_TextureNGS_Source == 57 // Frutiger Square NGS 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_frutiger_square_ngs_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 54 // Gill Sans Ultra Bold Square NGS
+#elif _Copyright_TextureNGS_Source == 58 // Gill Sans Ultra Bold Square NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_gill_sans_ultra_bold_square_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 55 // Gill Sans Ultra Bold Square NGS 2
+#elif _Copyright_TextureNGS_Source == 59 // Gill Sans Ultra Bold Square NGS 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_gill_sans_ultra_bold_square_ngs_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 56 // Megrim Square NGS
+#elif _Copyright_TextureNGS_Source == 60 // Megrim Square NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_megrim_square_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 57 // Blippo NGS Square
+#elif _Copyright_TextureNGS_Source == 61 // Blippo NGS Square
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_blippo_ngs_square.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 58 // Blippo NGS Square 2
+#elif _Copyright_TextureNGS_Source == 62 // Blippo NGS Square 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_blippo_ngs_square_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 350.0
 

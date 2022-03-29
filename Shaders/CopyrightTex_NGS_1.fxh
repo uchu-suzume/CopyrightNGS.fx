@@ -56,7 +56,7 @@ uniform int variable \
                "Poiret One Rectangle\0" \
                "Metro No.2 Cutout\0" \
                "Sigmar One\0" \
-               "Fifty Four\0" \
+               "Fifty Four DF\0" \
                "Sophia DF\0" \
                "Kranky\0" \
                "GN-Fuyu-iro Script\0" \
@@ -189,8 +189,8 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sigmar_one.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 50.0
 
-#elif _Copyright_TextureNGS_Source == 27 // Fifty Four
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four.png"
+#elif _Copyright_TextureNGS_Source == 27 // Fifty Four DF
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_df.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550.0, 100.0
 
 #elif _Copyright_TextureNGS_Source == 28 // Sophia DF

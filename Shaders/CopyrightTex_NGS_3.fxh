@@ -46,11 +46,12 @@ uniform int variable \
                "Tango 2\0" \
                "Parisian 2\0" \
                "Broadway\0" \
-               "Fifty Four 2\0" \
+               "Fifty Four DF 2\0" \
                "Kilogram 3\0" \
                "Kranky Large\0" \
                "Bauer Bodni\0" \
                "Bilbo Swash Caps\0" \
+               "Bubbler One Rectangle\0" \
                "Baumans\0" \
                "Sophia DF 8\0" \
                "Stalin One\0" \
@@ -58,9 +59,10 @@ uniform int variable \
                "-------------------------------------------------\0" \
                "Sophia DF 7\0" \
                "Futura NGS 2\0" \
+               "Sophia DF NGS 9\0" \
                "Parisian NGS 6\0" \
                "Broadway NGS\0" \
-               "Fifty Four NGS\0" \
+               "Fifty Four DF NGS\0" \
                "Monoton NGS\0" \
                "Sophia DF NGS 4\0" \
                "Handel Gothic NGS 2\0" \
@@ -154,8 +156,8 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_broadway.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 100.0
 
-#elif _Copyright_TextureNGS_Source == 17 // Fifty Four 2
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_2.png"
+#elif _Copyright_TextureNGS_Source == 17 // Fifty Four DF 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_df_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 150.0
 
 #elif _Copyright_TextureNGS_Source == 18 // Kilogram 3
@@ -174,67 +176,75 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bilbo_swash_caps.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 200.0
 
-#elif _Copyright_TextureNGS_Source == 22 // Baumans
+#elif _Copyright_TextureNGS_Source == 22 // Bubbler One Rectangle
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bubbler_one_rectangle.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 450
+
+#elif _Copyright_TextureNGS_Source == 23 // Baumans
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_baumans.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 480.0
 
-#elif _Copyright_TextureNGS_Source == 23 // Sophia DF 8
+#elif _Copyright_TextureNGS_Source == 24 // Sophia DF 8
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_8.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 150.0
 
-#elif _Copyright_TextureNGS_Source == 24 // Stalin One
+#elif _Copyright_TextureNGS_Source == 25 // Stalin One
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_stalin_one.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 200.0
 
-#elif _Copyright_TextureNGS_Source == 25 // Imprompt Squad
+#elif _Copyright_TextureNGS_Source == 26 // Imprompt Squad
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_impromptusquad.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 26 // -------------------------------------------border line---------------------------------------------
+#elif _Copyright_TextureNGS_Source == 27 // -------------------------------------------border line---------------------------------------------
 #define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
 
-#elif _Copyright_TextureNGS_Source == 27 // Sophia DF 7
+#elif _Copyright_TextureNGS_Source == 28 // Sophia DF 7
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_7.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 350.0
 
-#elif _Copyright_TextureNGS_Source == 28 // Futura NGS 2
+#elif _Copyright_TextureNGS_Source == 29 // Futura NGS 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_ngs_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 29 // Parisian NGS 6
+#elif _Copyright_TextureNGS_Source == 30 // Sophia DF NGS 9
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_9.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 530.0
+
+#elif _Copyright_TextureNGS_Source == 31 // Parisian NGS 6
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_parisian_ngs_6.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 30 // Broadway NGS
+#elif _Copyright_TextureNGS_Source == 32 // Broadway NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_broadway_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 31 // Fifty Four NGS
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_ngs.png"
+#elif _Copyright_TextureNGS_Source == 33 // Fifty Four DF NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_df_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 550.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 32 // Monoton NGS
+#elif _Copyright_TextureNGS_Source == 34 // Monoton NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_monoton_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 370.0
 
-#elif _Copyright_TextureNGS_Source == 33 // Sophia DF NGS 4
+#elif _Copyright_TextureNGS_Source == 35 // Sophia DF NGS 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_4.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 34 // Handel Gothic NGS 2
+#elif _Copyright_TextureNGS_Source == 36 // Handel Gothic NGS 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_handelgothic_ngs_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 900, 220.0
 
-#elif _Copyright_TextureNGS_Source == 35 // Meddon NGS
+#elif _Copyright_TextureNGS_Source == 37 // Meddon NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_meddon_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 200.0
 
-#elif _Copyright_TextureNGS_Source == 36 // Mr De Haviland
+#elif _Copyright_TextureNGS_Source == 38 // Mr De Haviland
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_mr_de_haviland.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 250.0
 
-#elif _Copyright_TextureNGS_Source == 37 // Park Avenue
+#elif _Copyright_TextureNGS_Source == 39 // Park Avenue
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_parkavenue.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 200.0
 

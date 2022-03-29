@@ -85,24 +85,24 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
 
 #elif _Copyright_TextureNGS_Source == 6 // Logo 06
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 7 // Logo 07
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 8 // Logo 08
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 9 // Logo 09
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 10 // Logo 10
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 435.0, 31.0
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 11 // -------------------------------------------border line---------------------------------------------
 #define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"

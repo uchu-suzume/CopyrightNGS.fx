@@ -55,7 +55,7 @@
     * Added a gaussian blur radius option that allows you to adjust the applied area.
     * Improved the accuracy of the BG Blend mode option.
 
-    Version 1.2
+    Version 1.2 by uchu suzume
     + Implemented texture list to easier to find from tons of variations.
     * Added scale option to gaussian layer.
     * Added more blending option to CAb layer.
@@ -63,6 +63,9 @@
     + Adjusted gaussian blur radius opiton #3 to reduce afterglow.
     + Expanded moving range of Gaussian layer.
     + Improved the formulas of Gaussian and CAb layers to keep the coordinate base even after rotation.
+
+    Version 1.3 by uchu suzume
+    x Fixed bug in recolor function
 */
 
 #include "ReShade.fxh"
@@ -822,15 +825,15 @@ void PS_cLayer(in float4 pos : SV_Position, float2 texCoord : TEXCOORD, out floa
                 ColorFactor =  saturate(DrawTex.rgb * ColorOverride.rgb); 
                 break;
             case 3:
-                ColorFactor =  DrawTex.rgb + ColorOverride.rgb;
+                ColorFactor =  saturate(ColorFactor.rgb + ColorOverride.rgb);
                 break;
             case 4:
-                ColorFactor =  float4(-1, -1, -1, 1) * DrawTex;
-                ColorFactor =  saturate(DrawTex.rgb * ColorOverride.rgb); 
+                ColorFactor =  float3(1, 1, 1) - DrawTex.rgb;
+                ColorFactor =  saturate(ColorFactor.rgb * ColorOverride.rgb); 
                 break;
             case 5:
-                ColorFactor =  float4(-1, -1, -1, 1) * DrawTex;
-                ColorFactor =  DrawTex.rgb + ColorOverride.rgb;
+                ColorFactor =  float3(1, 1, 1) - DrawTex.rgb;
+                ColorFactor =  saturate(ColorFactor.rgb + ColorOverride.rgb); 
                 break;
         }
 
