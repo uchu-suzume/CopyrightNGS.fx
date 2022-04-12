@@ -223,11 +223,11 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 650.0
 
 #elif _Copyright_TextureNGS_Source == 29 // Pro Torca
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_protorca.png"
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_protorca_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 300.0
 
 #elif _Copyright_TextureNGS_Source == 30 // Pro Torca Outlined
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_protorca_outlined.png"
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_protorca_outlined_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 300.0
 
 #elif _Copyright_TextureNGS_Source == 31 // Geometry Addict
