@@ -315,12 +315,12 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_maximus_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1100.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 51 // Sophia DF NGS 14
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_14.png"
+#elif _Copyright_TextureNGS_Source == 51 // Sophia DF 14
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_14.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 700.0
 
-#elif _Copyright_TextureNGS_Source == 52 // Sophia DF NGS 15
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_15.png"
+#elif _Copyright_TextureNGS_Source == 52 // Sophia DF 15
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_15.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 700.0
 
 #elif _Copyright_TextureNGS_Source == 53 // -------------------------------------------border line---------------------------------------------

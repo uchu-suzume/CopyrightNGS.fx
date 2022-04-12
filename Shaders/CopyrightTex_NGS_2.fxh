@@ -41,8 +41,8 @@ uniform int variable \
                "Mont Serrat Rectangle NGS B\0" \
                "Sophia DF NGS\0" \
                "Sophia DF NGS 8\0" \
-               "Sophia DF NGS 16\0" \
-               "Sophia DF NGS 17\0" \
+               "Sophia DF NGS 10\0" \
+               "Sophia DF NGS 11\0" \
                "Fifty Four DF NGS 3\0" \
                "-------------------------------------------------\0" \
                "Sophia DF 2 Large\0" \
@@ -147,12 +147,12 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_8.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1100.0, 350.0
 
-#elif _Copyright_TextureNGS_Source == 12 // Sophia DF NGS 16
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_16.png"
+#elif _Copyright_TextureNGS_Source == 12 // Sophia DF NGS 10
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_10.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1800.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 13 // Sophia DF NGS 17
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_17.png"
+#elif _Copyright_TextureNGS_Source == 13 // Sophia DF NGS 11
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_11.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1800.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 14 // Fifty Four DF NGS 3
