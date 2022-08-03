@@ -35,7 +35,7 @@ uniform int variable \
                "PSO2\0" \
                "Voltaire\0" \
                "Voltaire NGS\0" \
-               "Euro Style EX\0" \
+               "Euro Stile\0" \
                "Century\0" \
                "Schoolbell\0" \
                "Helvetica Condenced\0" \
@@ -51,8 +51,7 @@ uniform int variable \
                "Montserrat\0" \
                "Montserrat Simple\0" \
                "Frutiger with Flat Logo\0" \
-               "Eurostyle\0" \
-               "Eurostyle NGS\0" \
+               "Eurostile 2\0" \
                "Poiret One Rectangle\0" \
                "Metro No.2 Cutout\0" \
                "Sigmar One\0" \
@@ -61,7 +60,9 @@ uniform int variable \
                "Kranky\0" \
                "GN-Fuyu-iro Script\0" \
                "Sophia DF 2\0" \
+               "Sophia DF 12\0" \
                "Sacramento\0" \
+               "Grandmaster\0" \
                ; \
     ui_bind = "_Copyright_TextureNGS_Source"; \
     ui_label = name_label; \
@@ -105,8 +106,8 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_voltaire_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 60.0
 
-#elif _Copyright_TextureNGS_Source == 6 // Euro Style EX
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_eurostyle_ex.png"
+#elif _Copyright_TextureNGS_Source == 6 // Euro Stile EX
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_eurostile.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 60.0
 
 #elif _Copyright_TextureNGS_Source == 7 // Century
@@ -169,49 +170,53 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_frutiger_with_flat_logo.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 120.0
 
-#elif _Copyright_TextureNGS_Source == 22 // Eurostyle
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_eurostyle(square721).png"
+#elif _Copyright_TextureNGS_Source == 22 // Eurostile 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_eurostile_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550,200.0
 
-#elif _Copyright_TextureNGS_Source == 23 // Eurostyle NGS
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Eurostyle(Square721)_center_ngs_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1100,220.0
-
-#elif _Copyright_TextureNGS_Source == 24 // Poiret One Rectangle
+#elif _Copyright_TextureNGS_Source == 23 // Poiret One Rectangle
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_poiret_one_rectangle.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 250.0
 
-#elif _Copyright_TextureNGS_Source == 25 // Metro No.2 Cutout
+#elif _Copyright_TextureNGS_Source == 24 // Metro No.2 Cutout
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_metro_no.2_cutout.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 800, 100.0
 
-#elif _Copyright_TextureNGS_Source == 26 // Sigmar One
+#elif _Copyright_TextureNGS_Source == 25 // Sigmar One
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sigmar_one.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 50.0
 
-#elif _Copyright_TextureNGS_Source == 27 // Fifty Four DF
+#elif _Copyright_TextureNGS_Source == 26 // Fifty Four DF
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_fifty_four_df.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550.0, 100.0
 
-#elif _Copyright_TextureNGS_Source == 28 // Sophia DF
+#elif _Copyright_TextureNGS_Source == 27 // Sophia DF
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550.0, 100.0
 
-#elif _Copyright_TextureNGS_Source == 29 // Kranky
+#elif _Copyright_TextureNGS_Source == 28 // Kranky
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_kranky.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1280.0, 120.0
 
-#elif _Copyright_TextureNGS_Source == 30 // GN Fuyu-iro Script
+#elif _Copyright_TextureNGS_Source == 29 // GN Fuyu-iro Script
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_gn-fuyu-iro_script.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 820.0, 160.0
 
-#elif _Copyright_TextureNGS_Source == 31 // Sophia DF 2
+#elif _Copyright_TextureNGS_Source == 30 // Sophia DF 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1150.0, 150.0
+
+#elif _Copyright_TextureNGS_Source == 31 // Sophia DF 12
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_ngs_12.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 150.0
 
 #elif _Copyright_TextureNGS_Source == 32 // Sacramento 
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sacramento.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 150.0
+
+#elif _Copyright_TextureNGS_Source == 33 // Grandmaster
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1200.0, 200.0
 
 #else
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"

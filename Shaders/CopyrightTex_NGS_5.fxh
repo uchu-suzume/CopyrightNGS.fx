@@ -69,24 +69,17 @@ uniform int variable \
                "Geometry Addict NGS Square 3\0" \
                "Geometry Addict NGS Square 4\0" \
                "Geometry Addict NGS Square 5\0" \
-               "Geometry Addict NGS Square 6\0" \
-               "Geometry Addict NGS Square 7\0" \
+               "Toy Writer Mop\0" \
+               "Toy Writer Mop 2\0" \
                "-------------------------------------------------\0" \
-               "Super Bodoni DF\0" \
-               "Super Bodoni DF 2\0" \
-               "Super Bodoni DF NGS\0" \
-               "Super Bodoni DF 3\0" \
-               "Super Bodoni DF NGS 2\0" \
-               "Super Bodoni DF NGS 3\0" \
-               "Super Bodoni DF NGS 4\0" \
-               "Super Bodoni DF 4\0" \
-               "Super Bodoni DF 5\0" \
-               "Super Bodoni DF NGS 5\0" \
-               "Super Bodoni DF NGS 6\0" \
-               "Super Bodoni DF 6\0" \
-               "Super Bodoni DF NGS 7\0" \
-               "Super Bodoni DF NGS 8\0" \
-               "Super Bodoni DF NGS 9\0" \
+               "Pyxis\0" \
+               "Pyxis NGS\0" \
+               "Shotgun\0" \
+               "Shotgun 2\0" \
+               "Shotgun 3\0" \
+               "Shotgun 4\0" \
+               "Super\0" \
+               "Super NGS\0" \
                ; \
     ui_bind = "_Copyright_TextureNGS_Source"; \
     ui_label = name_label; \
@@ -256,88 +249,59 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 37 // Geometry Addict NGS Square 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 600.0
 
 #elif _Copyright_TextureNGS_Source == 38 // Geometry Addict NGS Square 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_4.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 600.0
 
 #elif _Copyright_TextureNGS_Source == 39 // Geometry Addict NGS Square 5
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_5.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 600.0
 
-#elif _Copyright_TextureNGS_Source == 40 // Geometry Addict NGS Square 6
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_6.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+#elif _Copyright_TextureNGS_Source == 40 // Toy Writer Mop
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_toy_writer_mop.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 550.0
 
-#elif _Copyright_TextureNGS_Source == 41 // Geometry Addict NGS Square 7
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_geometry_addict_ngs_square_7.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 600.0
+#elif _Copyright_TextureNGS_Source == 41 // Toy Writer Mop 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_toy_writer_mop_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 350.0
 
 #elif _Copyright_TextureNGS_Source == 42 // -------------------------------------------border line---------------------------------------------
 #define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
 
-#elif _Copyright_TextureNGS_Source == 43 // Super Bodoni DF
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1150.0, 200.0
+#elif _Copyright_TextureNGS_Source == 43 // Pyxis
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 44 // Super Bodoni DF 2
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 300.0
+#elif _Copyright_TextureNGS_Source == 44 // Pyxis NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 45 // Super Bodoni DF NGS
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 500.0
+#elif _Copyright_TextureNGS_Source == 45 // Shotgun
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 46 // Super Bodoni DF 3
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 300.0
+#elif _Copyright_TextureNGS_Source == 46 // Shotgun 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 650.0
 
-#elif _Copyright_TextureNGS_Source == 47 // Super Bodoni DF NGS 2
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 500.0
+#elif _Copyright_TextureNGS_Source == 47 // Shotgun 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 48 // Super Bodoni DF NGS 3
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 500.0
+#elif _Copyright_TextureNGS_Source == 48 // Shotgun 4
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_4.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 49 // Super Bodoni DF NGS 4
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_4.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 500.0
+#elif _Copyright_TextureNGS_Source == 49 // Super
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 700.0
 
-#elif _Copyright_TextureNGS_Source == 50 // Super Bodoni DF 4
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_4.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 500.0
-
-#elif _Copyright_TextureNGS_Source == 51 // Super Bodoni DF 5
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_5.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 500.0
-
-#elif _Copyright_TextureNGS_Source == 52 // Super Bodoni DF NGS 5
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_5.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 500.0
-
-#elif _Copyright_TextureNGS_Source == 53 // Super Bodoni DF NGS 6
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_6.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 500.0
-
-#elif _Copyright_TextureNGS_Source == 54 // Super Bodoni DF 6
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_6.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 800.0
-
-#elif _Copyright_TextureNGS_Source == 55 // Super Bodoni DF NGS 7
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_7.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 850.0
-
-#elif _Copyright_TextureNGS_Source == 56 // Super Bodoni DF NGS 8
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_8.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 700.0
-
-#elif _Copyright_TextureNGS_Source == 57 // Super Bodoni DF NGS 9
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_ngs_9.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 800.0
-
+#elif _Copyright_TextureNGS_Source == 50 // Super NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 1000.0
 
 #else
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face_2.png"
