@@ -76,31 +76,31 @@ uniform int variable \
 
 #if _Copyright_TextureNGS_Source == 0 // Aurora
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_aurora_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 750.0
 
 #elif _Copyright_TextureNGS_Source == 1 // Averta ARKS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_averta_arks_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 750.0
 
 #elif _Copyright_TextureNGS_Source == 2 // C.U.C.I.
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_cuci_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 650.0
 
 #elif _Copyright_TextureNGS_Source == 3 // Gatefold
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_gatefold_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 600.0
 
 #elif _Copyright_TextureNGS_Source == 4 // Grandmaster
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 600.0
 
 #elif _Copyright_TextureNGS_Source == 5 // Grandmaster 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 500.0
 
 #elif _Copyright_TextureNGS_Source == 6 // Grandmaster 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 450.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 450.0
 
 #elif _Copyright_TextureNGS_Source == 7 // Grandmaster 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical_4.png"
@@ -108,75 +108,75 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 8 // Grandmaster 5
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical_5.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 1350.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1350.0, 600.0
 
 #elif _Copyright_TextureNGS_Source == 9 // Huxley
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_huxley_vertical_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 1700.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1700.0, 700.0
 
 #elif _Copyright_TextureNGS_Source == 10 // Huxley 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_huxley_vertical_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 1800.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1800.0, 700.0
 
 #elif _Copyright_TextureNGS_Source == 11 // Midnight Sun CUCI
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_midnight_sun_df_cuci_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 700.0
 
 #elif _Copyright_TextureNGS_Source == 12 // Neue Droschke
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_neue_droschke_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 1900.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1900.0, 700.0
 
 #elif _Copyright_TextureNGS_Source == 13 // Neue Droschke 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_neue_droschke_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 1650.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1650.0, 850.0
 
 #elif _Copyright_TextureNGS_Source == 14 // Pyxis
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 950.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
 
 #elif _Copyright_TextureNGS_Source == 15 // Pyxis 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 950.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
 
 #elif _Copyright_TextureNGS_Source == 16 // Pyxis 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_vertical_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 850.0
 
 #elif _Copyright_TextureNGS_Source == 17 // Rachel DF
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_rachel_df_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 850.0
 
 #elif _Copyright_TextureNGS_Source == 18 // Rachel DF 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_rachel_df_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 800.0
 
 #elif _Copyright_TextureNGS_Source == 19 // Shotgun
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 950.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
 
 #elif _Copyright_TextureNGS_Source == 20 // Shotgun 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 1000.0
 
 #elif _Copyright_TextureNGS_Source == 21 // Sophia DF
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 2100.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 2100.0, 800.0
 
 #elif _Copyright_TextureNGS_Source == 22 // Sophia DF 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 900.0
 
 #elif _Copyright_TextureNGS_Source == 23 // Sophia DF 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_vertical_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 750.0
 
 #elif _Copyright_TextureNGS_Source == 24 // Super Bodoni
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1050.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 1050.0
 
 #elif _Copyright_TextureNGS_Source == 25 // Super
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 950.0, 1500.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
 
 #else
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face_2.png"
