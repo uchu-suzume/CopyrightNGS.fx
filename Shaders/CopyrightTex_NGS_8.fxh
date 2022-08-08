@@ -29,8 +29,9 @@
 uniform int variable \
 < \
     ui_items = \
-               "Aurora\0" \
+               "ARKS\0" \
                "Averta ARKS\0" \
+               "Aurora\0" \
                "C.U.C.I.\0" \
                "Gatefold\0" \
                "Grandmaster\0" \
@@ -38,6 +39,7 @@ uniform int variable \
                "Grandmaster 3\0" \
                "Grandmaster 4\0" \
                "Grandmaster 5\0" \
+               "Grandmaster ARKS\0" \
                "Huxley\0" \
                "Huxley 2\0" \
                "Midnight Sun CUCI\0" \
@@ -74,107 +76,115 @@ uniform int variable \
 
 // (?<=Source == )[\d][\S+]{0,999} Regular expression for renumbering.
 
-#if _Copyright_TextureNGS_Source == 0 // Aurora
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_aurora_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 750.0
+#if _Copyright_TextureNGS_Source == 0 // ARKS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_arks_vertical.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1600.0, 800.0
 
 #elif _Copyright_TextureNGS_Source == 1 // Averta ARKS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_averta_arks_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 750.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1700.0, 750.0
 
-#elif _Copyright_TextureNGS_Source == 2 // C.U.C.I.
+#elif _Copyright_TextureNGS_Source == 2 // Aurora
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_aurora_vertical.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1550.0, 750.0
+
+#elif _Copyright_TextureNGS_Source == 3 // C.U.C.I.
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_cuci_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 650.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1550.0, 550.0
 
-#elif _Copyright_TextureNGS_Source == 3 // Gatefold
+#elif _Copyright_TextureNGS_Source == 4 // Gatefold
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_gatefold_vertical.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 600.0
 
-#elif _Copyright_TextureNGS_Source == 4 // Grandmaster
+#elif _Copyright_TextureNGS_Source == 5 // Grandmaster
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 600.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1650.0, 600.0
 
-#elif _Copyright_TextureNGS_Source == 5 // Grandmaster 2
+#elif _Copyright_TextureNGS_Source == 6 // Grandmaster 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 6 // Grandmaster 3
+#elif _Copyright_TextureNGS_Source == 7 // Grandmaster 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 450.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1550.0, 450.0
 
-#elif _Copyright_TextureNGS_Source == 7 // Grandmaster 4
+#elif _Copyright_TextureNGS_Source == 8 // Grandmaster 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical_4.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 550.0, 2000.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 2000.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 8 // Grandmaster 5
+#elif _Copyright_TextureNGS_Source == 9 // Grandmaster 5
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_vertical_5.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1350.0, 600.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1600.0, 650.0
 
-#elif _Copyright_TextureNGS_Source == 9 // Huxley
+#elif _Copyright_TextureNGS_Source == 10 // Grandmaster ARKS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_grandmaster_arks_vertical.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1800.0, 600.0
+
+#elif _Copyright_TextureNGS_Source == 11 // Huxley
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_huxley_vertical_vertical.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1700.0, 700.0
 
-#elif _Copyright_TextureNGS_Source == 10 // Huxley 2
+#elif _Copyright_TextureNGS_Source == 12 // Huxley 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_huxley_vertical_vertical_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1800.0, 700.0
 
-#elif _Copyright_TextureNGS_Source == 11 // Midnight Sun CUCI
+#elif _Copyright_TextureNGS_Source == 13 // Midnight Sun CUCI
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_midnight_sun_df_cuci_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 700.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1600.0, 700.0
 
-#elif _Copyright_TextureNGS_Source == 12 // Neue Droschke
+#elif _Copyright_TextureNGS_Source == 14 // Neue Droschke
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_neue_droschke_vertical.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1900.0, 700.0
 
-#elif _Copyright_TextureNGS_Source == 13 // Neue Droschke 2
+#elif _Copyright_TextureNGS_Source == 15 // Neue Droschke 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_neue_droschke_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1650.0, 850.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1750.0, 750.0
 
-#elif _Copyright_TextureNGS_Source == 14 // Pyxis
+#elif _Copyright_TextureNGS_Source == 16 // Pyxis
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 800.0
 
-#elif _Copyright_TextureNGS_Source == 15 // Pyxis 2
+#elif _Copyright_TextureNGS_Source == 17 // Pyxis 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_vertical_2.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1550.0, 1000.0
 
-#elif _Copyright_TextureNGS_Source == 16 // Pyxis 3
+#elif _Copyright_TextureNGS_Source == 18 // Pyxis 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_vertical_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 850.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1600.0, 850.0
 
-#elif _Copyright_TextureNGS_Source == 17 // Rachel DF
+#elif _Copyright_TextureNGS_Source == 19 // Rachel DF
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_rachel_df_vertical.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 850.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1600.0, 850.0
 
-#elif _Copyright_TextureNGS_Source == 18 // Rachel DF 2
+#elif _Copyright_TextureNGS_Source == 20 // Rachel DF 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_rachel_df_vertical_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 800.0
 
-#elif _Copyright_TextureNGS_Source == 19 // Shotgun
+#elif _Copyright_TextureNGS_Source == 21 // Shotgun
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_vertical.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
 
-#elif _Copyright_TextureNGS_Source == 20 // Shotgun 2
+#elif _Copyright_TextureNGS_Source == 22 // Shotgun 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_vertical_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 1000.0
 
-#elif _Copyright_TextureNGS_Source == 21 // Sophia DF
+#elif _Copyright_TextureNGS_Source == 23 // Sophia DF
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_vertical.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 2100.0, 800.0
 
-#elif _Copyright_TextureNGS_Source == 22 // Sophia DF 2
+#elif _Copyright_TextureNGS_Source == 24 // Sophia DF 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_vertical_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 900.0
 
-#elif _Copyright_TextureNGS_Source == 23 // Sophia DF 3
+#elif _Copyright_TextureNGS_Source == 25 // Sophia DF 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_vertical_3.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 750.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1600.0, 750.0
 
-#elif _Copyright_TextureNGS_Source == 24 // Super Bodoni
+#elif _Copyright_TextureNGS_Source == 26 // Super Bodoni
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_bodoni_df_vertical.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 1050.0
 
-#elif _Copyright_TextureNGS_Source == 25 // Super
+#elif _Copyright_TextureNGS_Source == 27 // Super
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_vertical.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
 
