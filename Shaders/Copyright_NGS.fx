@@ -144,7 +144,7 @@ uniform int cLayer_SelectList <
                "List 5: Art\0"
                "List 6: Rachel DF\0"
                "List 7: Super Bodoni DF\0"
-               "List 8: Vertical DF\0"
+               "List 8: Vertical\0"
                //"Custom\0" /* Customリストを使用する場合は行頭の//を削除してください。 */
                ;
     ui_bind = "cLayer_TEXTURE_SELECTION";
