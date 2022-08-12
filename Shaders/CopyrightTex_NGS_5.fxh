@@ -71,6 +71,10 @@ uniform int variable \
                "Geometry Addict NGS Square 5\0" \
                "Toy Writer Mop\0" \
                "Toy Writer Mop 2\0" \
+               "Cybanin 3000\0" \
+               "Cybanin 3000 2\0" \
+               "Cybanin 3000 3\0" \
+               "Cybanin 3000 4\0" \
                "-------------------------------------------------\0" \
                "Pyxis\0" \
                "Pyxis NGS\0" \
@@ -267,39 +271,55 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_toy_writer_mop_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 350.0
 
-#elif _Copyright_TextureNGS_Source == 42 // -------------------------------------------border line---------------------------------------------
+#elif _Copyright_TextureNGS_Source == 42 // Cybanin 3000
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_cybanin3000.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1200.0, 350.0
+
+#elif _Copyright_TextureNGS_Source == 43 // Cybanin 3000 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_cybanin3000_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 44 // Cybanin 3000 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_cybanin3000_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 45 // Cybanin 3000 4
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_cybanin3000_4.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 400.0
+
+#elif _Copyright_TextureNGS_Source == 46 // -------------------------------------------border line---------------------------------------------
 #define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
 
-#elif _Copyright_TextureNGS_Source == 43 // Pyxis
+#elif _Copyright_TextureNGS_Source == 47 // Pyxis
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 44 // Pyxis NGS
+#elif _Copyright_TextureNGS_Source == 48 // Pyxis NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 45 // Shotgun
+#elif _Copyright_TextureNGS_Source == 49 // Shotgun
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 46 // Shotgun 2
+#elif _Copyright_TextureNGS_Source == 50 // Shotgun 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 650.0
 
-#elif _Copyright_TextureNGS_Source == 47 // Shotgun 3
+#elif _Copyright_TextureNGS_Source == 51 // Shotgun 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_3.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 48 // Shotgun 4
+#elif _Copyright_TextureNGS_Source == 52 // Shotgun 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_4.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 49 // Super
+#elif _Copyright_TextureNGS_Source == 53 // Super
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 700.0
 
-#elif _Copyright_TextureNGS_Source == 50 // Super NGS
+#elif _Copyright_TextureNGS_Source == 54 // Super NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 1000.0
 
