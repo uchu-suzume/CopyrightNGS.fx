@@ -119,7 +119,7 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 60.0
 
 #elif _Copyright_TextureNGS_Source == 9 // Helvetica Condenced
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_helvetica_condenced(Swiss911)_1550.png"
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_helvetica_condenced_1550.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 60.0
 
 #elif _Copyright_TextureNGS_Source == 10 // Peignot
