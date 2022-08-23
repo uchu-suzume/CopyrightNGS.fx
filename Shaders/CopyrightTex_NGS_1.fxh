@@ -180,7 +180,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 24 // Metro No.2 Cutout
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_metro_no.2_cutout.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 800, 100.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 850, 150.0
 
 #elif _Copyright_TextureNGS_Source == 25 // Sigmar One
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sigmar_one.png"
