@@ -167,7 +167,7 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550.0, 120.0
 
 #elif _Copyright_TextureNGS_Source == 21 // Frutiger with Flat Logo
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_frutiger_with_flat_logo.png"
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_frutiger_with_flat_logo_1550.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 120.0
 
 #elif _Copyright_TextureNGS_Source == 22 // Eurostile 2
