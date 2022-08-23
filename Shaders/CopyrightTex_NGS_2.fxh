@@ -266,7 +266,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 41 // Krona One NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_krona_one_ngs.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 340.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 350.0
 
 #elif _Copyright_TextureNGS_Source == 42 // Voltaire NGS Rectangle
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_voltaire_ngs_rectangle.png"
