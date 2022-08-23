@@ -302,11 +302,11 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 50 // Lato Cutout
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_lato_cutout.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 180.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 250.0
 
 #elif _Copyright_TextureNGS_Source == 51 // Lato Cutout NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_lato_cutout_ngs.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 620.0, 200.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 250.0
 
 #else
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2.png"
