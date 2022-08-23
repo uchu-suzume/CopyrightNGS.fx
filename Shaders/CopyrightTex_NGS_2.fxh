@@ -294,11 +294,11 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 48 // Staccato555 A
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_staccato555_a.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 820.0, 350.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 49 // Staccato555 B
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_staccato555_b.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 870.0, 320.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 350.0
 
 #elif _Copyright_TextureNGS_Source == 50 // Lato Cutout
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_lato_cutout.png"
