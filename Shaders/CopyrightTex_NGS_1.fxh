@@ -106,8 +106,8 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_voltaire_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 60.0
 
-#elif _Copyright_TextureNGS_Source == 6 // Euro Stile EX
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_eurostile.png"
+#elif _Copyright_TextureNGS_Source == 6 // Euro Stile
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_eurostile_1550.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1550, 60.0
 
 #elif _Copyright_TextureNGS_Source == 7 // Century
