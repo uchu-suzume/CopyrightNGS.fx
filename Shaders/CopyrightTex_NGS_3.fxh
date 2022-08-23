@@ -171,7 +171,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 20 // Kranky Large
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Kranky_large.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 830.0, 340.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 350.0
 
 #elif _Copyright_TextureNGS_Source == 21 // Bauer Bodni
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bauer_bodoni.png"
