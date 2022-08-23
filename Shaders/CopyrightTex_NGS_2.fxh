@@ -282,7 +282,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 45 // Mouse Memories
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_mouse_memories.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 660.0, 240.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 700.0, 300.0
 
 #elif _Copyright_TextureNGS_Source == 46 // Swanky and Moo Moo
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_swanky_and_moo_moo.png"
