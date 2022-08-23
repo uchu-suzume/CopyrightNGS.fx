@@ -210,7 +210,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 27 // Futura Center
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_center_large.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 190.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 200.0
 
 #elif _Copyright_TextureNGS_Source == 28 // Futura Center NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_center_large_ngs.png"
