@@ -131,7 +131,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 10 // Rockwell Nova
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Rockwell_nova.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 130.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 150.0
 
 #elif _Copyright_TextureNGS_Source == 11 // Poiret One
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Poiret_one.png"
