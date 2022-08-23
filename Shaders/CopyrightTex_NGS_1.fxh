@@ -200,7 +200,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 29 // GN Fuyu-iro Script
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_gn-fuyu-iro_script.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 820.0, 160.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 200.0
 
 #elif _Copyright_TextureNGS_Source == 30 // Sophia DF 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_2.png"
