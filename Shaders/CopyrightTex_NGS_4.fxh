@@ -119,27 +119,27 @@ uniform int variable \
 
 #if _Copyright_TextureNGS_Source == 0 // Futura Tri
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_tri.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 329.0, 432.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 450.0
 
 #elif _Copyright_TextureNGS_Source == 1 // Futura Tri NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_tri_ngs.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 330.0, 430.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 450.0
 
 #elif _Copyright_TextureNGS_Source == 2 // Futura Tri NGS HV
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_tri_ngs_hv.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 330.0, 460.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 450.0
 
 #elif _Copyright_TextureNGS_Source == 3 // Sophia DF Tri
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_sophia_df_tri.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 330.0, 460.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 450.0
 
 #elif _Copyright_TextureNGS_Source == 4 // Helvetica Square
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Helvetica(Swis721)_square.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 360.0, 400.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 400.0
 
 #elif _Copyright_TextureNGS_Source == 5 // Handel Gothic
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_handel_gothic.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 430.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 350.0, 450.0
 
 #elif _Copyright_TextureNGS_Source == 6 // Handel Gothic NGS 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_handel_gothic_ngs_4.png"
