@@ -127,7 +127,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 9 // Kabel Heavy
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_kabel(Geometric231)_heavy.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 240.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 200.0
 
 #elif _Copyright_TextureNGS_Source == 10 // Rockwell Nova
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Rockwell_nova.png"
