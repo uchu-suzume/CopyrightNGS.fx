@@ -230,7 +230,7 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 200.0
 
 #elif _Copyright_TextureNGS_Source == 28 // Bank Gothic
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bankgothic.png"
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bank_gothic.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 650.0, 300.0
 
 #elif _Copyright_TextureNGS_Source == 29 // PSO2 Flat Logo
