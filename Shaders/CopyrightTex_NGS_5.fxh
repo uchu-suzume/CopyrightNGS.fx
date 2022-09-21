@@ -75,6 +75,19 @@ uniform int variable \
                "Cybanin 3000 2\0" \
                "Cybanin 3000 3\0" \
                "Cybanin 3000 4\0" \
+               "Trapezoid Demon\0" \
+               "Trapezoid Demon NGS\0" \
+               "Bad Cat Planet NGS\0" \
+               "Smoke Knife NGS\0" \
+               "Smoke Knife NGS 2\0" \
+               "Smoke Knife NGS 3\0" \
+               "Space Noodle\0" \
+               "Space Noodle NGS\0" \
+               "Space Noodle NGS 2\0" \
+               "Space Noodle NGS 3\0" \
+               "Snail Lagoon\0" \
+               "Snail Lagoon NGS\0" \
+               "Snail Lagoon NGS 2\0" \
                "-------------------------------------------------\0" \
                "Pyxis\0" \
                "Pyxis NGS\0" \
@@ -287,39 +300,91 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_cybanin3000_4.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 400.0
 
-#elif _Copyright_TextureNGS_Source == 46 // -------------------------------------------border line---------------------------------------------
+#elif _Copyright_TextureNGS_Source == 46 // Trapezoid Demon
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_trapezoid_demon.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 1200.0
+
+#elif _Copyright_TextureNGS_Source == 47 // Trapezoid Demon NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_trapezoid_demon_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 950.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 48 // Bad Cat Planet NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bad_cat_planet_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 550.0, 950.0
+
+#elif _Copyright_TextureNGS_Source == 49 // Smoke Knife NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_smoke_knife_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 500.0
+
+#elif _Copyright_TextureNGS_Source == 50 // Smoke Knife NGS 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_smoke_knife_ngs_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 900.0
+
+#elif _Copyright_TextureNGS_Source == 51 // Smoke Knife NGS 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_smoke_knife_ngs_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 800.0, 400.0
+
+#elif _Copyright_TextureNGS_Source == 52 // Space Noodle
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_space_noodle.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 200.0
+
+#elif _Copyright_TextureNGS_Source == 53 // Space Noodle NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_space_noodle_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 200.0
+
+#elif _Copyright_TextureNGS_Source == 54 // Space Noodle NGS 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_space_noodle_ngs_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 55 // Space Noodle NGS 3
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_space_noodle_ngs_3.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 900.0
+
+#elif _Copyright_TextureNGS_Source == 56 // Snail Lagoon
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_snail_lagoon.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 300.0
+
+#elif _Copyright_TextureNGS_Source == 57 // Snail Lagoon NGS
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_snail_lagoon_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 800.0
+
+#elif _Copyright_TextureNGS_Source == 58 // Snail Lagoon NGS 2
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_snail_lagoon_ngs_2.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 950.0, 400.0
+
+#elif _Copyright_TextureNGS_Source == 59 // -------------------------------------------border line---------------------------------------------
 #define _SOURCE_COPYRIGHT_NGS_FILE "blanku.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1000.0, 50.0
 
-#elif _Copyright_TextureNGS_Source == 47 // Pyxis
+#elif _Copyright_TextureNGS_Source == 60 // Pyxis
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 48 // Pyxis NGS
+#elif _Copyright_TextureNGS_Source == 61 // Pyxis NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_pyxis_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 49 // Shotgun
+#elif _Copyright_TextureNGS_Source == 62 // Shotgun
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 400.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 50 // Shotgun 2
+#elif _Copyright_TextureNGS_Source == 63 // Shotgun 2
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_2.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 650.0
 
-#elif _Copyright_TextureNGS_Source == 51 // Shotgun 3
+#elif _Copyright_TextureNGS_Source == 64 // Shotgun 3
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_3.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 500.0
 
-#elif _Copyright_TextureNGS_Source == 52 // Shotgun 4
+#elif _Copyright_TextureNGS_Source == 65 // Shotgun 4
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_shotgun_4.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 500.0, 300.0
 
-#elif _Copyright_TextureNGS_Source == 53 // Super
+#elif _Copyright_TextureNGS_Source == 66 // Super
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 700.0
 
-#elif _Copyright_TextureNGS_Source == 54 // Super NGS
+#elif _Copyright_TextureNGS_Source == 67 // Super NGS
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 750.0, 1000.0
 

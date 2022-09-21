@@ -57,6 +57,8 @@ uniform int variable \
                "Sophia DF 3\0" \
                "Super Bodoni\0" \
                "Super\0" \
+               "Trapezoid Demon\0" \
+               "Bad Cat Planet\0" \
                ; \
     ui_bind = "_Copyright_TextureNGS_Source"; \
     ui_label = name_label; \
@@ -187,6 +189,14 @@ uniform int variable \
 #elif _Copyright_TextureNGS_Source == 27 // Super
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_super_vertical.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 950.0
+
+#elif _Copyright_TextureNGS_Source == 28 // Trapezoid Demon
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_trapezoid_demon_vertical.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1500.0, 750.0
+
+#elif _Copyright_TextureNGS_Source == 29 // Bad Cat Planet
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bad_cat_planet_vertical.png"
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1600.0, 600.0
 
 #else
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bird_face_2.png"

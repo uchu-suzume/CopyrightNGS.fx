@@ -135,11 +135,11 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 11 // Poiret One
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Poiret_one.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 250.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 600.0, 210.0
 
 #elif _Copyright_TextureNGS_Source == 12 // Poiret One Huge
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Poiret_one_huge.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 1400.0, 550.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 1440.0, 500.0
 
 #elif _Copyright_TextureNGS_Source == 13 // Supermercado
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_supermercado.png"
@@ -171,7 +171,7 @@ uniform int variable \
 
 #elif _Copyright_TextureNGS_Source == 20 // Kranky Large
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_Kranky_large.png"
-#define _SOURCE_COPYRIGHT_NGS_SIZE 900.0, 350.0
+#define _SOURCE_COPYRIGHT_NGS_SIZE 830.0, 340.0
 
 #elif _Copyright_TextureNGS_Source == 21 // Bauer Bodni
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_bauer_bodoni.png"

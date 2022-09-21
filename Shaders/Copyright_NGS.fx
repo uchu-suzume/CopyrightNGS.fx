@@ -547,6 +547,7 @@ sampler Copyright_Sampler
     Texture = Copyright_TextureNGS;
     AddressU = CLAMP;
     AddressV = CLAMP;
+    AddressW = CLAMP;
 };
 
 sampler Copyright_Sampler_Gauss_H
@@ -861,7 +862,6 @@ void PS_cLayer(in float4 pos : SV_Position, float2 texCoord : TEXCOORD, out floa
         #elif cLayer_COLOR_OVERRIDE_COMBO == 2
             ColorFactor = saturate(ColorFactor.rgb + ColorOverrideA.rgb);
         #elif cLayer_COLOR_OVERRIDE_COMBO == 3
-            //ColorFactor = ColorOverrideB.rgb + (ColorFactor.rgb * (ColorOverrideA.rgb - ColorOverrideB.rgb));
             ColorFactor = lerp(lerp(ColorOverrideB.rgb, ColorOverrideA.rgb, ColorFactor.rgb), ColorOverrideA.rgb, ColorFactor.rgb);
         #elif cLayer_COLOR_OVERRIDE_COMBO == 4
             ColorFactor = ColorOverrideA.rgb;
