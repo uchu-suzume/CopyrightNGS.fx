@@ -209,11 +209,11 @@ uniform int variable \
 #define _SOURCE_COPYRIGHT_NGS_SIZE 600, 250.0
 
 #elif _Copyright_TextureNGS_Source == 27 // Futura Center
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_center_large.png"
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_center.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 200.0
 
 #elif _Copyright_TextureNGS_Source == 28 // Futura Center NGS
-#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_center_large_ngs.png"
+#define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_futura_center_ngs.png"
 #define _SOURCE_COPYRIGHT_NGS_SIZE 850.0, 200.0
 
 #elif _Copyright_TextureNGS_Source == 29 // Sophia DF 4
