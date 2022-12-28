@@ -36,7 +36,7 @@ uniform int variable \
                "Avera\0" \
                "Sophia DF 6\0" \
                "Sophia DF 6 Huge\0" \
-               "Six Caps Rectangle\0" \ 
+               "Six Caps Rectangle\0" \
                "Futura 2\0" \
                "Kabel Heavy\0" \
                "Rockwell Nova\0" \
@@ -77,17 +77,10 @@ uniform int variable \
     ui_spacing = 1; \
     ui_type = "combo"; \
 > = 0;
-/* Set default value(see above) by source code if the preset has not modified yet this variable/definition */
 #ifndef cLayer_Texture_Source
 #define cLayer_Texture_Source 0
-#warning "Non-existing source reference numbers specified. Try selecting the logo texture at the top and then reload."
 #endif
 
-// -------------------------------------
-// Texture Definition
-// -------------------------------------
-
-// (?<=Source == )[\d][\S+]{0,999} Regular expression for renumbering.
 
 #if _Copyright_TextureNGS_Source == 0 // Helvetica
 #define _SOURCE_COPYRIGHT_NGS_FILE "copyright_pso2_helvetica.png"

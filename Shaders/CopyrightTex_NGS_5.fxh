@@ -56,7 +56,7 @@ uniform int variable \
                "Brick Text Logo 4\0" \
                "Brick Text Logo 5\0" \
                "Brick Text Logo 6\0" \
-               "Brick Text Logo 7\0" \               
+               "Brick Text Logo 7\0" \
                "Chocolate Note\0" \
                "Pro Torca\0" \
                "Pro Torca Outlined\0" \

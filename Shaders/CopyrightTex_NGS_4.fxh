@@ -43,7 +43,7 @@ uniform int variable \
                "Sophia DF NGS 5\0" \
                "Peignot NGS\0" \
                "Parisian NGS 3\0" \
-               "Rockwell Nova NGS\0" \  
+               "Rockwell Nova NGS\0" \
                "Parisian NGS 7\0" \
                "Futura NGS\0" \
                "Sophia DF NGS 6\0" \
@@ -105,10 +105,8 @@ uniform int variable \
     ui_spacing = 1; \
     ui_type = "combo"; \
 > = 0;
-/* Set default value(see above) by source code if the preset has not modified yet this variable/definition */
 #ifndef cLayer_Texture_Source
 #define cLayer_Texture_Source 0
-#warning "Non-existing source reference numbers specified. Try selecting the logo texture at the top and then reload."
 #endif
 
 // -------------------------------------
