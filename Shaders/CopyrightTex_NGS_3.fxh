@@ -18,7 +18,7 @@
     x Fixed incorrect specification of PSO2 logo in ui_item and Texture Definition. 
 
     Version 0.2 by Marot Satil & uchu suzume
-    + Added "else" in _Copyright_Texture_Source list to avoid errors when switching *Tex.fxh.    
+    + Added "else" in _Copyright_Texture_Source list to avoid errors when switching *Tex.fxh.
 */
 
 // -------------------------------------
@@ -77,8 +77,8 @@ uniform int variable \
     ui_spacing = 1; \
     ui_type = "combo"; \
 > = 0;
-#ifndef cLayer_Texture_Source
-#define cLayer_Texture_Source 0
+#ifndef cLayerNGS_Texture_Source
+#define cLayerNGS_Texture_Source 0
 #endif
 
 
