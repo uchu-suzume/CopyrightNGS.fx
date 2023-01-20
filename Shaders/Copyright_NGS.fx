@@ -74,6 +74,9 @@
 
     Version 1.41 by uchu suzume
     x Correspond to specification changes for GShade 4.02.
+    
+    Version 1.5 by Marot Satil & uchu suzume
+    x Fixed incorrect declaration of arguments in Texture combo.
 */
 
 #include "ReShade.fxh"
@@ -156,7 +159,7 @@ uniform int cLayerNGS_SelectList <
 TEXTURE_COMBO(
     cLayerNGS_Select,
     "Copyright Logo Selection",
-    "The image/texture you'd like to use.   ",
+    "The image/texture you'd like to use.   "
 );
 
 uniform float cLayerNGS_Scale <
