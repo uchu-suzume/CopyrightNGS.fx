@@ -33,7 +33,7 @@ uniform int variable \
                "Frutiger\0" \
                "Univers\0" \
                "Futura\0" \
-               "Avera\0" \
+               "Averta\0" \
                "Sophia DF 6\0" \
                "Sophia DF 6 Huge\0" \
                "Six Caps Rectangle\0" \
